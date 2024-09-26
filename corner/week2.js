@@ -1,3 +1,4 @@
+//Introduction
 //Opening line.
 /*console.log('It was love at first sight.');
 
@@ -79,3 +80,53 @@ console.log('The value of levelUp:', levelUp);
 console.log('The value of powerLevel:', powerLevel); 
 console.log('The value of multiplyMe:', multiplyMe); 
 console.log('The value of quarterMe:', quarterMe);
+
+
+let favoriteAnimal = 'rabbit';
+console.log('My favorite animal: ' + favoriteAnimal);
+
+let myName = "NAME";
+let myCity = "CITY";
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
+
+let newVariable = 'Playing around with typeof.';
+console.log(typeof newVariable);
+newVariable = 1;
+console.log(typeof newVariable);
+console.log(typeof newVariable);
+
+
+//Project
+//오늘의 예보 293켈빈
+const kelvin = 0;
+//let kelvin = 293;
+//섭씨 계산
+const celsius = kelvin - 273;
+//화씨 = 섭씨 * (9/5) + 32
+let fahrenheit = celsius * (9/5) + 32;
+//화씨 온도를 반올림
+fahrenheit = Math.floor(fahrenheit);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+//Convert to Newton
+let newton = celsius * (33/100);
+newton = Math.floor(newton);
+console.log(`The temperature is ${newton} degrees Newton.`);
+
+
+//Project 2
+//나의 나이
+const myAge = 22;
+let earlyYears = 2;
+earlyYears *= 10.5;
+//2년을 설명했으므로 2를 뺀다.
+let laterYears = myAge - 2;
+laterYears *= 4;
+console.log(earlyYears);
+console.log(laterYears);
+//변수 더함
+let myAgeInDogYears = earlyYears + laterYears;
+
+
+
+//Conditionals
