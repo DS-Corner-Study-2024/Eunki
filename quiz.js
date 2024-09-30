@@ -14,4 +14,5 @@ numbers.forEach((number) => {
       return `This is a ${this.brand} ${this.model}, and the battery level is at ${this.batteryLevel}%.`;
     }
   };
+
   console.log(car.provideInfo());
