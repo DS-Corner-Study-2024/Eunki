@@ -8,7 +8,6 @@
 
 
 //8번
-//controllers/index.js
 const Room = require('../schemas/room');
 const Chat = require('../schemas/chat');
 const { removeRoom: removeRoomService } = require('../services'); 
@@ -25,9 +24,6 @@ exports.removeRoom = async (req, res, next) => {
 
 
 //9번
-
-//app.js
-
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/gif', express.static(path.join(__dirname, 'uploads')));
 app.use(express.json());
